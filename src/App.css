@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-container {
+  flex: 1 1 100;
+}
+
+.movie-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20%;
+}
+
+.add-to-cart {
+  background-color: orange;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 15px 5px 15px;
+}
+
+.add-to-cart:hover {
+  background-color: #ff8c00;
+}
+
+.poster {
+  margin-bottom: 10px;
+  width: 90%;
+  height: auto;
+}
+
+@media (min-width: 50rem) {
+  .poster {
+    width: 30%;
+  }
+
+  .movie-item-container {
+    margin-bottom: 10%;
+  }
+}
+
+.glyphicon-star {
+  color: gold;
+}
+
+.star-4 {
+  color: lightgray;
+}
+
+.prices {
+  margin-bottom: 10px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: darkgray;
+}
+
+.reduced-price {
+  margin-left: 13px;
+}
